@@ -1,0 +1,10 @@
+logo_data_oral/
+logo_images/
+output/
+old/
+*/test_subset.json
+*/train_subset.json
+*.log
+*/logo_test.json
+*/logo_train.json
+models/
