@@ -41,4 +41,28 @@ Warmup = 3%
 检测 IoU: 3.6% → 20.5%
 行业识别: 30.0% → 60.0%
 
+100K
+分类准确率: 30.0% → 100.0%
+检测 IoU: 3.6% → 36.4%
+行业识别: 30.0% → 80.0%
+10K
 
+### checkpoint
+
+/home/jiahuawang/test/classVLM/output/qwen3-vl-2b-logo-lora_20251120_124437/checkpoint-18750  100k
+
+
+/home/jiahuawang/test/classVLM/output/qwen3-vl-2b-logo-lora_20251120_124305/checkpoint-2814  10k
+
+/home/jiahuawang/test/classVLM/output/qwen3-vl-2b-logo-lora_20251120_125323/checkpoint-1410  3k
+
+
+python comprehensive_eval.py \
+  --checkpoint /home/jiahuawang/test/classVLM/output/qwen3-vl-2b-logo-lora_20251120_124305/checkpoint-2814 \
+  --label "exp1_10k_r64" \
+  --lora_rank 64 \
+  --train_samples 30000 \
+  --prompt v1 \
+  --num_samples 300 \
+  --output_dir evaluation_results/10k \
+  --batch_size 4

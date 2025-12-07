@@ -8,3 +8,5 @@ old/
 */logo_test.json
 */logo_train.json
 models/
+evaluation_results/
+visualization/

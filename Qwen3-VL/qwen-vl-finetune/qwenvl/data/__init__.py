@@ -28,13 +28,13 @@ VIDEOCHATGPT = {
 
 # Logo Detection Dataset - 支持动态切换
 LOGO_DATASET = {
-    "annotation_path": "/home/jiahuawang/test/classVLM/train_part/train_subset.json",  # 使用子集
+    "annotation_path": "/home/jiahuawang/test/classVLM/train_part/train_subset_500.json",  # 使用子集
     "data_path": "",  # 图像路径已经在 JSON 中包含
 }
 
 # Logo 全量数据集（可选）
 LOGO_FULL = {
-    "annotation_path": "/home/jiahuawang/test/classVLM/train_part/logo_train.json",
+    "annotation_path": "/home/jiahuawang/test/classVLM/train_part/train_subset_10k.json",
     "data_path": "",
 }
 

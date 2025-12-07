@@ -1,0 +1,12 @@
+experiment_name,start_time,training_duration_formatted,training_duration_hours,total_steps,num_train_epochs,initial_loss,final_loss,num_checkpoints,checkpoints,output_dir
+qwen3-vl-2b-logo-lora_20251120_123624,2025-11-20 12:36:24,0:05:45,0.10,230,,3.0747,1.2023,,,output/qwen3-vl-2b-logo-lora_20251120_123624
+qwen3-vl-2b-logo-lora_20251120_120624,2025-11-20 12:06:24,0:00:12,0.00,20,,3.1350,3.0589,,,output/qwen3-vl-2b-logo-lora_20251120_120624
+qwen3-vl-2b-logo-lora_20251124_091056,2025-11-24 09:10:56,0:29:55,0.50,920,,2.9895,0.6251,,,output/qwen3-vl-2b-logo-lora_20251124_091056
+qwen3-vl-2b-logo-lora_20251124_085059,2025-11-24 08:50:59,0:50:01,0.83,2440,,4.0715,0.5842,,,output/qwen3-vl-2b-logo-lora_20251124_085059
+qwen3-vl-2b-logo-lora_20251124_083929,2025-11-24 08:39:29,1:01:41,1.03,2320,,2.9842,0.5991,,,output/qwen3-vl-2b-logo-lora_20251124_083929
+qwen3-vl-2b-logo-lora_20251124_085819,2025-11-24 08:58:19,0:42:36,0.71,2000,,3.2194,0.6042,,,output/qwen3-vl-2b-logo-lora_20251124_085819
+qwen3-vl-2b-logo-lora_20251120_123904,2025-11-20 12:39:04,0:02:31,0.04,80,,3.3065,1.1618,,,output/qwen3-vl-2b-logo-lora_20251120_123904
+qwen3-vl-2b-logo-lora_20251120_124305,2025-11-20 12:43:05,1:46:26,1.77,2810,3.0,2.9401,0.6109,2,"2500, 2814",output/qwen3-vl-2b-logo-lora_20251120_124305
+qwen3-vl-2b-logo-lora_20251120_125323,2025-11-20 12:53:23,0:30:38,0.51,1410,5.0,3.3656,0.6262,2,"1000, 1410",output/qwen3-vl-2b-logo-lora_20251120_125323
+qwen3-vl-2b-logo-lora_20251124_090346,2025-11-24 09:03:46,0:37:01,0.62,1120,,2.9904,0.6148,,,output/qwen3-vl-2b-logo-lora_20251124_090346
+qwen3-vl-2b-logo-lora_20251120_124437,2025-11-20 12:44:37,7:06:49,7.11,18750,2.0,3.2116,0.4788,2,"18500, 18750",output/qwen3-vl-2b-logo-lora_20251120_124437
